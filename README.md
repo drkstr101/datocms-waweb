@@ -1,6 +1,6 @@
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/drkstr101/datocms-waweb)
 
-# A Blog example using Next.js and DatoCMS
+# datocms-waweb
 
 This example showcases a Next.js Blog using [DatoCMS](https://www.datocms.com/) as the data source. It fully supports [Preview Mode](https://www.datocms.com/docs/next-js/setting-up-next-js-preview-mode) with [DatoCMS real-time updates](https://www.datocms.com/docs/next-js/real-time-updates).
 
@@ -10,7 +10,7 @@ The purpose of this repo is to have a quick start reference that can be set up w
 
 Have a look at the end result live:
 
-### [https://nextjs-demo-bay.vercel.app/](https://nextjs-demo-bay.vercel.app/)
+### [https://datocms-waweb.vercel.app/](https://datocms-waweb.vercel.app/)
 
 ## How to use
 
@@ -22,7 +22,7 @@ Have a look at the end result live:
 
 3. Let DatoCMS set everything up for you clicking this button:
 
-[![Deploy with DatoCMS](https://dashboard.datocms.com/deploy/button.svg)](https://dashboard.datocms.com/deploy?repo=datocms/nextjs-demo)
+[![Deploy with DatoCMS](https://dashboard.datocms.com/deploy/button.svg)](https://dashboard.datocms.com/deploy?repo=drkstr101/datocms-waweb)
 
 ### Local setup
 

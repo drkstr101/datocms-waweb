@@ -13,25 +13,25 @@ export default function Alert({ preview }) {
         <div className="py-2 text-center text-sm">
           {preview ? (
             <>
-              This is page is showing draft content.{' '}
+              You are currently in multi-tenant mode.{' '}
               <a
                 href="/api/exit-preview"
                 className="underline hover:text-cyan duration-200 transition-colors"
               >
                 Click here
               </a>{' '}
-              to exit preview mode.
+              to go back to single-tennant mode.
             </>
           ) : (
             <>
-              This is page is showing published content.{' '}
+              You are currently in single-tenant mode.{' '}
               <a
                 href="/api/preview"
                 className="underline hover:text-cyan duration-200 transition-colors"
               >
                 Click here
               </a>{' '}
-              to enter preview mode!
+              to enter multi-tenant mode! (experimental)
             </>
           )}
         </div>
